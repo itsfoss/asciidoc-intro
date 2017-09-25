@@ -1,0 +1,24 @@
+COFFEE(1)
+=========
+:doctype: manpage
+
+
+NAME
+----
+coffee - Control remote coffee machine
+
+
+SYNOPSIS
+--------
+*asciidoc* ['OPTIONS'] 'FILE'
+*coffee* [ -h | -b ] [ -t _type_ ]
+_amount_
+
+
+DESCRIPTION
+-----------
+*coffee* queues a request to the remote
+coffee machine at the device */dev/cf0*.
+The required _amount_ argument specifies
+the number of cups, generally between 0 and
+12 on ISO standard coffee machines.

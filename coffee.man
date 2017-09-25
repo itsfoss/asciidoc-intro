@@ -1,0 +1,12 @@
+.TH COFFEE 1 "23 March 94"
+.SH NAME
+coffee /- Control remote coffee machine
+.SH SYNOPSIS
+\fBcoffee\fP [ -h | -b ] [ -t \fItype\fP ]
+\fIamount\fP
+.SH DESCRIPTION
+\fBcoffee\fP queues a request to the remote
+coffee machine at the device \fB/dev/cf0\fR.
+The required \fIamount\fP argument specifies
+the number of cups, generally between 0 and
+12 on ISO standard coffee machines.
